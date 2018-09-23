@@ -1,3 +1,3 @@
 # Coursera-Machine-Learning
 
-All programming assignments used in 'Machine Learning' on Coursera by Stanford taught by Andrew Ng
+Collection of my programming assignments used in Andrew Ng's Machine Learning course on Coursera
