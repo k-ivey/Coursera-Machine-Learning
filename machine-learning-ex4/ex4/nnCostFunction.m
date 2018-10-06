@@ -70,6 +70,8 @@ z3 = a2 * Theta2'
 a3 = sigmoid(z3)
 h = a3
 y_matrix = eye(num_labels)(y,:)
+#Creates matrix of y with 0 denoting not that class and 1 denoting class
+#For example, '9' would be [0 0 0 0 0 0 0 0 1 0]
 
 regularization = (lambda/(2 * m)) .* (sum(sum(Theta1(:,2:end) .** 2)) + ...
                                       sum(sum(Theta2(:,2:end) .** 2)))
